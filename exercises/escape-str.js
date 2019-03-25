@@ -8,6 +8,9 @@
  */
 
 // Your code :
+let spe1 = '"'
+let spe2 = "'"
+const escapeStr = ("/\\`" + spe1 + spe2)
 
 //* Begin of tests
 const assert = require('assert')
